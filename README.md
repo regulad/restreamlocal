@@ -41,6 +41,8 @@
 
 ## Installation
 
+**_To Quickly install ReStreamLocal on Windows, just click "Releases" on the right and then download the executable._**
+
 You can install _ReStreamLocal_ via [pip] from [PyPI]:
 
 ```console
