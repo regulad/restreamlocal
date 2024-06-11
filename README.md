@@ -19,13 +19,25 @@
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
+![Screenshot 2024-06-11 190449.png](./Screenshot%202024-06-11%20190449.png)
+
 ## Features
 
-- TODO
+- Stream to multiple destinations without sending your data to a website like Restream.io
+- Entirely local
+- No account required
+- No limits on the number of destinations
+- Alternative to https://github.com/sorayuki/obs-multi-rtmp which is not maintained in English and requires a plugin
+- Runs entirely separately of OBS Studio, can be used with any program.
+- TODO: Sort the main entrypoint into different files, although i avoided spaghetti code, it's still a bit of a mess.
+- TODO: Preserve settings between runs
 
 ## Requirements
 
-- TODO
+- Currently only supports Windows. Some binaries are bundled and loaded at runtime.
+  - https://sourceforge.net/projects/monaserver
+  - ffmpeg (although; this does work on linux. this project is rather thrown together, possibly later?)
+- VS 2013 redistributable (https://www.microsoft.com/en-us/download/details.aspx?id=40784)
 
 ## Installation
 

@@ -18,9 +18,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from __future__ import annotations
 
-from
 
-restreamlocal.__main__ import cli
+from restreamlocal.__main__ import cli
 
 
 if __name__ == "__main__":  # pragma: no cover

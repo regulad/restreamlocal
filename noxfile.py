@@ -268,4 +268,6 @@ def pyinstaller(session: Session) -> None:
 
     args.append("--noconfirm")
 
+    args.append("--noconsole")
+
     session.run("pyinstaller", *args, str(Path("src", "launcher.py")))
