@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "restreamlocal"
-version = "0.1.0"
+version = "0.2.0"
 description = "ReStreamLocal provides an easy-to-use locally hosted alternative to restream.io. Simply Open the program in the background and setup your OBS or Streamlabs to stream into it and it will take care of redistributing your stream."
 authors = ["Parker Wahle <regulad@regulad.xyz>"]
 license = "GPL-3.0"
